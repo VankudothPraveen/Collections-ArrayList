@@ -22,11 +22,19 @@ public class Main {
         pm.filterByBrand("Samsung").forEach(System.out::println);
         pm.sortByCost();
         //print the list of phones after sorting by cost
-        System.out.println("\nAfter Sorting by Cost:");
+        System.out.println("\nAfter Sorting by Cost in Ascending order:");
         pm.getAllPhones().forEach(System.out::println);
+        pm.sortByCostDesc();
+        System.out.println("\nAfter Sorting by Cost in descending order:");
+        pm.getAllPhones().forEach(System.out::println);
+
         pm.sortByDate();
-        System.out.println("\nAfter Sorting by Date:");
+        System.out.println("\nAfter Sorting by Date in Ascending order:");
         pm.getAllPhones().forEach(System.out::println);
+        pm.sortByDateDesc();
+        System.out.println("\nAfter Sorting by Date in Descending order:");
+        pm.getAllPhones().forEach(System.out::println);
+
 
     }
 }

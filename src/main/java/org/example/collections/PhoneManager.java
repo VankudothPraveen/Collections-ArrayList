@@ -36,6 +36,9 @@ public class PhoneManager {
     public void sortByCost() {
         Collections.sort(phones, new CostComparator());
     }
+    public void sortByCostDesc() {
+        Collections.sort(phones,new costComparatorDesc());
+    }
 
     public void sortByDate() {
         phones.sort((p1, p2) -> {
@@ -53,6 +56,25 @@ public class PhoneManager {
             if (year1 != year2) return year1 - year2;
             if (month1 != month2) return month1 - month2;
             return day1 - day2;
+        });
+    }
+
+    public void sortByDateDesc() {
+        phones.sort((p1, p2) -> {
+            String[] d1 = p1.getDateOfManufacture().split("-");
+            String[] d2 = p2.getDateOfManufacture().split("-");
+
+            int day1 = Integer.parseInt(d1[0]);
+            int month1 = Integer.parseInt(d1[1]);
+            int year1 = Integer.parseInt(d1[2]);
+
+            int day2 = Integer.parseInt(d2[0]);
+            int month2 = Integer.parseInt(d2[1]);
+            int year2 = Integer.parseInt(d2[2]);
+
+            if (year1 != year2) return year2 - year1;
+            if (month1 != month2) return month2 - month1;
+            return day2 - day1;
         });
     }
 

@@ -83,6 +83,16 @@ Responsibilities:
 <img width="891" height="357" alt="image" src="https://github.com/user-attachments/assets/ab941ee8-28e0-4e9a-8880-180e165a9254" />
 <img width="865" height="343" alt="image" src="https://github.com/user-attachments/assets/10b43020-f25a-4490-b71a-ec65d799cd1f" />
 
+---
+#### Same applied for the HashMap
+
+---
+
+<img width="868" height="232" alt="image" src="https://github.com/user-attachments/assets/69dd5bb1-f52a-4f2f-9955-4a752637a089" />
+<img width="908" height="263" alt="image" src="https://github.com/user-attachments/assets/e7b5d8aa-8f97-409c-96bf-84832216813c" />
+
+
+
 
 
 

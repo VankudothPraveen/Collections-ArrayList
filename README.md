@@ -80,8 +80,9 @@ Responsibilities:
 ### sample outputs
 
 ---
-<img width="955" height="289" alt="image" src="https://github.com/user-attachments/assets/3559b8c7-41f1-4867-896c-66a69ac9a56b" />
-<img width="870" height="205" alt="image" src="https://github.com/user-attachments/assets/a93ea51a-389b-4367-9a12-29fd621367c5" />
+<img width="891" height="357" alt="image" src="https://github.com/user-attachments/assets/ab941ee8-28e0-4e9a-8880-180e165a9254" />
+<img width="865" height="343" alt="image" src="https://github.com/user-attachments/assets/10b43020-f25a-4490-b71a-ec65d799cd1f" />
+
 
 
 
